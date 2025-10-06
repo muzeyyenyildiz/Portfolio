@@ -1,0 +1,13 @@
+/* 1. Google Fonts'tan Inter fontunu projenize import edin */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* 2. Tüm site genelindeki (body) varsayılan fontu Inter olarak ayarlayın */
+body {
+    /* Varsayılan font-family tanımını ekleyin */
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+    width: 100%;
+}
+
