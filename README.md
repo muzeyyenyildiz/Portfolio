@@ -16,7 +16,17 @@ This portfolio is designed to be **clean, modern, and user-friendly**, providing
 
 ### 🖼️ Portfolio Page
 
-![plot](/src/assets/screen1.png)
+![plot](/src/assets/1.png)
+---
+![plot](/src/assets/2.png)
+---
+![plot](/src/assets/3.png)
+---
+![plot](/src/assets/4.png)
+---
+![plot](/src/assets/5.png)
+---
+![plot](/src/assets/6.png)
 ---
 
 ## 🚀 Technologies Used
