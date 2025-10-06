@@ -14,10 +14,9 @@ This portfolio is designed to be **clean, modern, and user-friendly**, providing
 * **Clear Structure:** Easily navigable sections including **About Me**, **Technical Skills**, **Work Experience**, **Projects**, and a **Contact Form**.
 * **Skill Showcase:** Highlights proficiency in modern frontend technologies.
 
-### 🖼️ Screenshot
+### 🖼️ Portfolio Page
 
-*(Here you will insert the image you provided)*
-![plot](assets/screen.png)
+![plot](/src/assets/screen1.png)
 ---
 
 ## 🚀 Technologies Used
@@ -70,9 +69,9 @@ To run this project locally, you will need **Node.js** and **npm** (or **yarn**)
 
 **Müzeyyen Yıldız** - Frontend Developer
 
-* **GitHub:** [Your GitHub Profile Link]
-* **LinkedIn:** [Your LinkedIn Profile Link]
-* **Portfolio:** [The Live URL of this Portfolio]
+* **GitHub:** https://github.com/muzeyyenyildiz
+* **LinkedIn:** https://www.linkedin.com/in/muzeyyenyildiz89/
+* **Portfolio:** later
 
 ---
 
