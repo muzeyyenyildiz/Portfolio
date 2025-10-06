@@ -10,7 +10,7 @@ import { LanguageContent } from './types';
 
 
 const HeroSection = ({ content }: { content: LanguageContent }) => (
-    <header id="home" className="bg-warning text-white text-center py-5 mx-auto"
+    <header id="home" className="hero-bg-custom text-white text-center py-5 mx-auto"
         style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', paddingTop: '80px' }}>
         <Container >
             <h1 className="display-3 fw-bold mb-3">{content.name}</h1>

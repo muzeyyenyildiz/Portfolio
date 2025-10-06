@@ -7,7 +7,7 @@ import ProjectsSection from './components/Projects';
 import ContactSection from './components/Contact';
 import Footer from './components/Footer';
 import { CONTENT } from './components/constantsTR';
-import { LanguageContent, LanguageKey, RootContent, UILanguage } from "./components/types"
+import { LanguageKey, UILanguage } from "./components/types"
 import { useState } from 'react';
 
 
