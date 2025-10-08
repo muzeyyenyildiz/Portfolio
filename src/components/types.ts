@@ -19,6 +19,7 @@ export interface ProjectItem {
     name: string;
     description: string;
     link: string;
+    vercel: string;
     technologies: string[];
 }
 
@@ -51,6 +52,7 @@ export interface UIButtons {
     github: string;
     graduated: string;
     viewOnGithub: string;
+    viewOnWebsite: string
     sendMessage: string;
 }
 

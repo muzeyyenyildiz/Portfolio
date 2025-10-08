@@ -13,7 +13,7 @@ export const CONTENT: RootContent = {
             github: "github.com/muzeyyenyildiz",
             linkedin: "linkedin.com/in/muzeyyenyildiz89/",
             location: "Gökçeada / Çanakkale, Turkey",
-            phone: "+90 542 661 20 75",
+            phone: "+905426612075",
         },
         skills: [
             "HTML", "CSS-Sass", "JavaScript", "React.js", "Typescript", "Vite", "Next.js", "React Native",
@@ -48,24 +48,35 @@ export const CONTENT: RootContent = {
                 name: "GITHUB SEARCH APP",
                 description: "Built using React.js, React Hooks, Redux, Redux-toolkit, React Bootstrap, Fetch, React-router-dom, Font-awesome, and Goggle-font.",
                 link: "github_search_app",
+                vercel: '',
                 technologies: ["React.js", "Redux", "React Bootstrap", "Redux-toolkit"]
+            },
+            {
+                name: "BUDGET MANAGER",
+                description: "Next.js, React.js, Tailwind, Typescript, React Hooks,date-fns, highcharts  kullanılarak oluşturuldu.",
+                link: "BudgetManager",
+                vercel: 'https://budget-manager-dun.vercel.app/',
+                technologies: ['Next.js', "React.js", 'Tailwind', 'TypeScript']
             },
             {
                 name: "RESTAURANT MOBILE APP",
                 description: "Built using React Native, React Navigation, Expo/vector-icons, Axios, and Yelp API.",
                 link: "RestaurantApp-ReactNative",
+                vercel: '',
                 technologies: ["React Native", "Axios", "Expo/vector-icons"]
             },
             {
                 name: "REACT SEARCH APP",
                 description: "Built using React, React Router, React Icon, React Pagination, Vanilla CSS, Lodash, and Sorting.",
                 link: "react-search-app",
+                vercel: '',
                 technologies: ["React", "React Router", "Lodash"]
             },
             {
                 name: "TODO APP",
                 description: "Built using Vanilla Javascript, Vanilla CSS, and Local Storage (HTML5).",
                 link: "TodoAppByVanillaJS",
+                vercel: 'https://todo-app-by-vanilla-js.vercel.app/',
                 technologies: ["Vanilla JS", "HTML5", "Local Storage"]
             }
         ],
@@ -77,7 +88,7 @@ export const CONTENT: RootContent = {
         // Arayüz Metinleri
         ui: {
             nav: { about: "About", skills: "Skills", experience: "Experience", projects: "Projects", contact: "Contact" },
-            buttons: { linkedin: "LinkedIn", github: "GitHub", graduated: "Graduated", viewOnGithub: "View on GitHub", sendMessage: "Send Message" },
+            buttons: { linkedin: "LinkedIn", github: "GitHub", graduated: "Graduated", viewOnGithub: "View on GitHub", viewOnWebsite: 'View on Website', sendMessage: "Send Message" },
             titles: {
                 about: "About Me", education: "Education", skills: "Technical Skills", experience: "Work Experience",
                 projects: "Projects", contact: "Get In Touch", technologiesUsed: "Technologies Used:",
@@ -136,24 +147,35 @@ export const CONTENT: RootContent = {
                 name: "GITHUB SEARCH APP",
                 description: "React.js, React Hooks, Redux, Redux-toolkit, React Bootstrap, Fetch, React-router-dom, Font-awesome, Goggle-font kullanılarak oluşturuldu.",
                 link: "github_search_app",
+                vercel: '',
                 technologies: ["React.js", "Redux", "React Bootstrap", "Redux-toolkit"]
+            },
+            {
+                name: "BUDGET MANAGER",
+                description: "Next.js, React.js, Tailwind, Typescript, React Hooks,date-fns, highcharts  kullanılarak oluşturuldu.",
+                link: "BudgetManager",
+                vercel: 'https://budget-manager-dun.vercel.app/',
+                technologies: ['Next.js', "React.js", 'Tailwind', 'TypeScript']
             },
             {
                 name: "RESTAURANT MOBILE APP",
                 description: "React Native, React Navigation, Expo/vector-icons, Axios, yelp Api kullanılarak oluşturuldu.",
                 link: "RestaurantApp-ReactNative",
+                vercel: '',
                 technologies: ["React Native", "Axios", "Expo/vector-icons"]
             },
             {
                 name: "REACT SEARCH APP",
                 description: "React, React Router, React Icon, React Pagination, Vanilla CSS, Lodash, Sorting kullanılarak oluşturuldu.",
                 link: "react-search-app",
+                vercel: '',
                 technologies: ["React", "React Router", "Lodash"]
             },
             {
                 name: "TODO APP",
                 description: "Vanilla Javascript, Vanilla CSS, Local Storage (HTML5) kullanılarak oluşturuldu.",
                 link: "TodoAppByVanillaJS",
+                vercel: 'https://todo-app-by-vanilla-js.vercel.app/',
                 technologies: ["Vanilla JS", "HTML5", "Local Storage"]
             }
         ],
@@ -165,7 +187,7 @@ export const CONTENT: RootContent = {
         // Arayüz Metinleri
         ui: {
             nav: { about: "Hakkımda", skills: "Beceriler", experience: "Deneyim", projects: "Projeler", contact: "İletişim" },
-            buttons: { linkedin: "LinkedIn", github: "GitHub", graduated: "Mezun", viewOnGithub: "GitHub'da Gör", sendMessage: "Mesajı Gönder" },
+            buttons: { linkedin: "LinkedIn", github: "GitHub", graduated: "Mezun", viewOnGithub: "GitHub'da Gör", viewOnWebsite: 'Sitede Gör', sendMessage: "Mesajı Gönder" },
             titles: {
                 about: "Hakkımda", education: "Eğitim", skills: "Teknik Beceriler", experience: "İş Deneyimi",
                 projects: "Projeler", contact: "İletişim", technologiesUsed: "Kullanılan Teknolojiler:",

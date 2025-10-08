@@ -25,14 +25,24 @@ const ProjectsSection = ({ content, texts }: { content: LanguageContent, texts: 
                                         <Badge key={idx} bg="success" className="me-2 mb-1 p-2">{tech}</Badge>
                                     ))}
                                 </div>
-                                <Button
-                                    variant="outline-primary"
-                                    href={`https://github.com/muzeyyenyildiz/${project.link}`}
-                                    target="_blank"
-                                    className="mt-auto"
-                                >
-                                    View on GitHub
-                                </Button>
+                                <div className='d-flex flex-row gap-2'>
+                                    <Button
+                                        variant="outline-primary"
+                                        href={`https://github.com/muzeyyenyildiz/${project.link}`}
+                                        target="_blank"
+                                        className="mt-auto "
+                                    >
+                                        {texts.buttons.viewOnGithub}
+                                    </Button>
+                                    {project.vercel !== '' && <Button
+                                        variant="primary"
+                                        href={project.vercel}
+                                        target="_blank"
+                                        className="mt-auto ml-4"
+                                    >
+                                        {texts.buttons.viewOnWebsite}
+                                    </Button>}
+                                </div>
                             </Card.Body>
                         </Card>
                     </Col>
