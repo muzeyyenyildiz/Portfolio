@@ -5,6 +5,7 @@ import {
     ListGroup,
     Badge,
     Accordion,
+    Button,
 } from 'react-bootstrap';
 import { LanguageContent, UILanguage } from './types';
 
@@ -27,6 +28,17 @@ const ExperienceSection = ({ content, texts }: { content: LanguageContent, texts
                                             </ListGroup.Item>
                                         ))}
                                     </ListGroup>
+                                    {job.website && (
+                                        <Button
+                                            variant="outline-success"
+                                            href={job.website}
+                                            target="_blank"
+                                            className="mt-auto ml-4"
+                                            size='sm'
+                                        >
+                                            {texts.buttons.viewOnWebsite}
+                                        </Button>
+                                    )}
                                     <div className="mt-3">
                                         <h6 className="fw-bold">{texts.titles.technologiesUsed}</h6>
                                         {job.technologies.map((tech, idx) => (

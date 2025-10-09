@@ -12,6 +12,7 @@ export interface ExperienceItem {
     title: string;
     time: string;
     tasks: string[];
+    website?: string;
     technologies: string[];
 }
 

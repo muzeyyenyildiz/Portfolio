@@ -25,15 +25,17 @@ export const CONTENT: RootContent = {
                 title: "FRONTEND DEVELOPER / DogGO",
                 time: "Feb. 2022 - Dec 2024",
                 tasks: [
-                    "Spearheaded developments on the company's website, admin panel, and HR admin panel, delivering comprehensive digital solutions.",
-                    "Improved user experience by strategically adding new features, pages, forms, and tables, enhancing overall system functionality.",
-                    "Provided active support in UI/UX improvements, collaborating with design teams to create intuitive and user-friendly interfaces.",
-                    "Developed web applications using Next.js, React, and Tailwind CSS, focusing on component-based architecture.",
-                    "Implemented both server-side and client-side rendering techniques with Next.js, optimizing application performance and user experience.",
-                    "Utilized GitHub for version control.",
-                    "Systematically enhanced software reliability by identifying and fixing bugs.",
-                    "Worked on a Monorepo project.",
+                    "Contributed significantly to the front-end development of the company's website, admin, and HR panels, delivering robust digital solutions as a core team member.",
+                    "Provided active support to cross-platform development for the Owner and Walker mobile apps (React Native), implementing features, updating views, and resolving bugs.",
+                    "Actively participated in code review processes (PRs), offering constructive feedback to peers to ensure high code quality, consistency, and adherence to best practices.",
+                    "Executed major technical modernizations, including the successful migration from Class Components to the Hooks API and completing essential React version updates.",
+                    "Enhanced code reliability and maintainability by completing the TypeScript migration for key web applications.",
+                    "Developed performant solutions using Next.js, expertly implementing and optimizing both Server-Side and Client-Side Rendering techniques.",
+                    "Collaborated closely with design teams to enhance UX/UI, strategically introducing new features (forms, tables, pages) for improved system functionality.",
+                    "Built solutions using a modern stack: Next.js, React, and Tailwind CSS, adhering to a component-based architecture within a Monorepo structure.",
+                    "Utilized GitHub for effective version control and systematically resolved bugs across all platforms to maintain software reliability."
                 ],
+                website: 'https://www.doggoapp.com/',
                 technologies: ["ReactJs", "React Native", "Next.js", "TypeScript", "Redux", "Vite", "Tailwind", "Bootstrap", "NextUI", "React Hooks", "React Query", "Tanstack Table"]
             },
             {
@@ -121,22 +123,24 @@ export const CONTENT: RootContent = {
         ],
         experience: [
             {
-                title: "ÖN YÜZ GELİŞTİRİCİ / DogGO",
+                title: "FRONTEND DEVELOPER / DogGO",
                 time: "Şub. 2022 - Ara. 2024",
                 tasks: [
-                    "Şirketin web sitesi, yönetici paneli ve İK yönetici paneli üzerindeki geliştirmelere öncülük ettim.",
-                    "Stratejik olarak yeni özellikler, sayfalar, formlar ve tablolar ekleyerek kullanıcı deneyimini iyileştirdim.",
-                    "Tasarım ekipleriyle işbirliği yaparak sezgisel ve kullanıcı dostu arayüzler oluşturmak için UI/UX iyileştirmelerine aktif destek sağladım.",
-                    "Bileşen tabanlı mimariye odaklanarak Next.js, React ve Tailwind CSS kullanarak web uygulamaları geliştirdim.",
-                    "Next.js ile hem sunucu taraflı hem de istemci taraflı render tekniklerini uyguladım, uygulama performansını ve kullanıcı deneyimini optimize ettim.",
-                    "Versiyon kontrolü için GitHub kullandım.",
-                    "Yazılım güvenilirliğini sistematik olarak hataları belirleyip düzelterek artırdım.",
-                    "Monorepo projesi üzerinde çalıştım.",
+                    "Bir yazılım ekibinin parçası olarak, şirketin web sitesi, yönetici ve İK panellerinin ön yüz geliştirmelerine önemli katkılar sağladım.",
+                    "Owner ve Walker mobil uygulamalarının (React Native) platformlar arası geliştirmesini destekledim; yeni özellikler, sayfa güncellemeleri ve hata çözümleri yaptım.",
+                    "Kod inceleme (PR) süreçlerine aktif olarak katıldım, ekip arkadaşlarıma yapıcı geri bildirimler sunarak kod kalitesinin ve standartların korunmasına katkıda bulundum.",
+                    "Önemli teknik modernizasyon süreçlerini yürüttüm; Class Component'leri Hook API'ye taşıdım ve gerekli React versiyon güncellemelerini tamamladım.",
+                    "Ana web uygulamalarında JavaScript'ten TypeScript'e dönüşümü gerçekleştirerek kod güvenliğini ve sürdürülebilirliğini artırdım.",
+                    "Next.js kullanarak yüksek performanslı uygulamalar geliştirdim ve hem Sunucu Taraflı (SSR) hem de İstemci Taraflı (CSR) Rendering tekniklerini uygulayıp optimize ettim.",
+                    "Kullanıcı deneyimini (UX/UI) iyileştirmek amacıyla tasarım ekipleriyle yakın çalışarak stratejik olarak yeni özellikler ekledim.",
+                    "Next.js, React ve Tailwind CSS kullanarak bileşen tabanlı mimariye sahip çözümler geliştirdim ve projeleri Monorepo yapısı içinde yönettim.",
+                    "GitHub ile etkili sürüm kontrolü sağladım ve tüm platformlarda yazılım güvenilirliğini sürdürmek için sistematik olarak hataları çözdüm."
                 ],
+                website: 'https://www.doggoapp.com/',
                 technologies: ["ReactJs", "React Native", "Next.js", "TypeScript", "Redux", "Vite", "Tailwind", "Bootstrap", "NextUI", "React Hooks", "React Query", "Tanstack Table"]
             },
             {
-                title: "SERBEST ÇALIŞAN - CSS GELİŞTİRİCİ / Exodus",
+                title: "FREELANCER - CSS GELİŞTİRİCİ / Exodus",
                 time: "2021",
                 tasks: ["Exodus Detail Websites, Bootstrap, HTML5 ve CSS3 ile oluşturuldu."],
                 technologies: ["HTML5", "CSS3", "Bootstrap"]
@@ -194,7 +198,7 @@ export const CONTENT: RootContent = {
                 contactFormTitle: "Bana Ulaşın", email: "E-posta", name: "Adınız", message: "Mesajınız",
                 enterName: "Adınızı Giriniz", enterEmail: "E-posta Adresinizi Giriniz", writeMessage: "Mesajınızı Yazınız"
             },
-            footer: "Ön Yüz Geliştirici Portfolyo",
+            footer: "FRONTEND DEVELOPER Portfolyo",
             locationText: "Konum:",
         }
     }
